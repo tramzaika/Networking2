@@ -13,6 +13,12 @@
 		7C43021A24CD2F940000DB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C43021824CD2F940000DB63 /* Main.storyboard */; };
 		7C43021C24CD2F9C0000DB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C43021B24CD2F9C0000DB63 /* Assets.xcassets */; };
 		7C43021F24CD2F9C0000DB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C43021D24CD2F9C0000DB63 /* LaunchScreen.storyboard */; };
+		7C43022724CD3A740000DB63 /* ImageViewCintroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43022624CD3A740000DB63 /* ImageViewCintroller.swift */; };
+		7C43022924D023910000DB63 /* CoursesView Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43022824D023910000DB63 /* CoursesView Controller.swift */; };
+		7C43022B24D023B40000DB63 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43022A24D023B40000DB63 /* WebViewController.swift */; };
+		7C43022D24DF973A0000DB63 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43022C24DF973A0000DB63 /* Course.swift */; };
+		7C43022F24DFF5300000DB63 /* WebsiteDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43022E24DFF5300000DB63 /* WebsiteDescription.swift */; };
+		7C43023124E3A03A0000DB63 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C43023024E3A03A0000DB63 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		7C43021B24CD2F9C0000DB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C43021E24CD2F9C0000DB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C43022024CD2F9C0000DB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C43022624CD3A740000DB63 /* ImageViewCintroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCintroller.swift; sourceTree = "<group>"; };
+		7C43022824D023910000DB63 /* CoursesView Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoursesView Controller.swift"; sourceTree = "<group>"; };
+		7C43022A24D023B40000DB63 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7C43022C24DF973A0000DB63 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		7C43022E24DFF5300000DB63 /* WebsiteDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteDescription.swift; sourceTree = "<group>"; };
+		7C43023024E3A03A0000DB63 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				7C43021224CD2F940000DB63 /* AppDelegate.swift */,
 				7C43021424CD2F940000DB63 /* SceneDelegate.swift */,
+				7C43022624CD3A740000DB63 /* ImageViewCintroller.swift */,
 				7C43021624CD2F940000DB63 /* ViewController.swift */,
 				7C43021824CD2F940000DB63 /* Main.storyboard */,
+				7C43023024E3A03A0000DB63 /* TableViewCell.swift */,
 				7C43021B24CD2F9C0000DB63 /* Assets.xcassets */,
 				7C43021D24CD2F9C0000DB63 /* LaunchScreen.storyboard */,
 				7C43022024CD2F9C0000DB63 /* Info.plist */,
+				7C43022824D023910000DB63 /* CoursesView Controller.swift */,
+				7C43022E24DFF5300000DB63 /* WebsiteDescription.swift */,
+				7C43022A24D023B40000DB63 /* WebViewController.swift */,
+				7C43022C24DF973A0000DB63 /* Course.swift */,
 			);
 			path = Networking2;
 			sourceTree = "<group>";
@@ -138,6 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C43022924D023910000DB63 /* CoursesView Controller.swift in Sources */,
+				7C43022D24DF973A0000DB63 /* Course.swift in Sources */,
+				7C43022F24DFF5300000DB63 /* WebsiteDescription.swift in Sources */,
+				7C43023124E3A03A0000DB63 /* TableViewCell.swift in Sources */,
+				7C43022B24D023B40000DB63 /* WebViewController.swift in Sources */,
+				7C43022724CD3A740000DB63 /* ImageViewCintroller.swift in Sources */,
 				7C43021724CD2F940000DB63 /* ViewController.swift in Sources */,
 				7C43021324CD2F940000DB63 /* AppDelegate.swift in Sources */,
 				7C43021524CD2F940000DB63 /* SceneDelegate.swift in Sources */,
